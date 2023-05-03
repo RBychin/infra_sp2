@@ -6,8 +6,6 @@ from dotenv import load_dotenv
 dotenv_path = os.path.join('..', 'infra', '.env')
 load_dotenv(dotenv_path)
 
-
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
